@@ -1,0 +1,29 @@
+{
+  "name": "plena",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "nano-jsx": "0.0.16",
+    "serve": "^11.3.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.2.4",
+    "webpack": "^5.36.2",
+    "webpack-cli": "^4.6.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:dev": "npx typescript && webpack --config webpack/webpack.config.js --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/knockshore/plena.git"
+  },
+  "author": "Karthick S. (yuvikarti@gmail.com)",
+  "license": "SEE LICENSE IN LICENSES.txt",
+  "bugs": {
+    "url": "https://github.com/knockshore/plena/issues"
+  },
+  "homepage": "https://github.com/knockshore/plena#readme"
+}
